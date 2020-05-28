@@ -1,6 +1,6 @@
 # HTML Privacy Policy to Plaintext Converter
 
-This repository hosts the source code for converting HTML representations of privacy policies to plaintext. Note that the purpose of preprocessing is to allow for deeper NLP processing (e.g., POS tagging, dependency parsing, NER). Therefore, the process includes a heuristic to form complete sentences from formatted lists, which may result in duplicated text in the output and may not preserve word count frequencies. Full details of the approach can be found in Appendix A of the PolicyLint paper listed below. 
+This repository hosts the source code for converting HTML representations of privacy policies to plaintext. Note that the purpose of preprocessing is to allow for deeper NLP processing (e.g., POS tagging, dependency parsing, NER). Therefore, the process includes a heuristic to form complete sentences from formatted lists, which may result in duplicated text in the output and may not preserve word count frequencies. The current implementation only works for English language policies. It uses the langdetect Python module to ignore non-English policies. Full details of the approach can be found in Appendix A of the PolicyLint paper listed below. 
 
 
 # Instructions:
